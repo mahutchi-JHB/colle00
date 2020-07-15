@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+void ft_putchar(char sym);
 
 void rush(int x, int y){
   char sym;
