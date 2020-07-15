@@ -1,8 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rush03.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mahutchi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/15 12:24:57 by mahutchi          #+#    #+#             */
+/*   Updated: 2020/07/15 12:24:59 by mahutchi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-void ft_putchar(char sym);
+
 
 void rush(int x, int y){
   char sym;
@@ -48,6 +62,6 @@ void rush(int x, int y){
     }
     a++;
     b = 0;
-    ft_putchar("%/N");
+    ft_putchar('\n');
   }
 }
